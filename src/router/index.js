@@ -10,19 +10,19 @@ export default new Router({
     {
       path: '/login',
       name: 'login',
-      // meta: {layout: 'empty'},
+      meta: { layout: 'empty' },
       component: () => import('../views/Login.vue')
     },
     {
       path: '/',
       name: 'home',
-      // meta: {layout: 'main'},
+      meta: { layout: 'main' },
       component: () => import('../views/Home.vue')
     },
     {
       path: '/categories',
       name: 'categories',
-      // meta: {layout: 'main'},
+      meta: { layout: 'main' },
       component: () => import('../views/Categories.vue')
     }
   ]
