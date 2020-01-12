@@ -1,5 +1,5 @@
 <template>
- <div class="app-main-layout">
+  <div class="app-main-layout">
     <nav class="navbar orange lighten-1">
       <div class="nav-wrapper">
         <div class="navbar-left">
@@ -58,14 +58,14 @@
 
     <main class="app-content">
       <div class="app-page">
-          <router-view />
-    </div>
+        <router-view />
+      </div>
     </main>
 
     <div class="fixed-action-btn">
-  <a class="btn-floating btn-large blue" href="#">
-    <i class="large material-icons">add</i>
-  </a>
+      <a class="btn-floating btn-large blue" href="#">
+        <i class="large material-icons">add</i>
+      </a>
     </div>
- </div>   
+  </div>
 </template>
