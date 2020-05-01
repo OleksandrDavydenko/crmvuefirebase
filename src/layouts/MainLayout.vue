@@ -25,7 +25,7 @@ import Sidebar from '../components/app/Sidebar'
 export default {
   name: 'main-layout',
   data: () => ({
-    isOpen: true
+    isOpen: false
   }),
   components: {
     Navbar, Sidebar
