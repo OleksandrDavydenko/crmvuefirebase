@@ -1,7 +1,7 @@
 import firebase from 'firebase/app'
 
 
-// asdasdasd
+// asdasdasd dsadasd
 
 export default {
   actions: {
