@@ -1,5 +1,8 @@
 import firebase from 'firebase/app'
 
+
+// asdasdasd
+
 export default {
   actions: {
     async login({dispatch, commit}, {email, password}) {
