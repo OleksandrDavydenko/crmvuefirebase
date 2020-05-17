@@ -21,7 +21,7 @@ export default {
     color () {
       // eslint-disable-next-line no-unused-vars
       const colors = ['spinner-red-only', 'spinner-blue-only', 'spinner-green-only']
-      return colors[Math.floar(Math.random() * 3)]
+      return colors[Math.floor(Math.random() * 3)]
     }
   }
 }
