@@ -25,6 +25,17 @@ export default {
         throw e
       }
     },
+    async updateCategory ({commit, dispatch}, {title, limit, id}) {
+      try {
+        // eslint-disable-next-line no-unused-vars
+        const uid = await dispatch('getUid')
+        // eslint-disable-next-line no-unused-vars
+        await firebase.database().ref(`/users/${uid}/categories`).child(id).update({title, limit})
+      } catch (e) {
+        commit('setError', e)
+        throw e
+      }
+    },
     async createCategory ({commit, dispatch}, {title, limit}) {
       try {
         // eslint-disable-next-line no-unused-vars
